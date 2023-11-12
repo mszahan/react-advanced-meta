@@ -1,9 +1,11 @@
 import './App.css';
+import DesertItem from './components/desertItem';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Hola</h1>
+      <DesertItem/>
     </div>
   );
 }
