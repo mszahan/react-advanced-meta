@@ -26,8 +26,10 @@ const topDesserts = [
 function DesertItem(){
     const listItems = topDesserts.map(dessert => {
         const itemText = `${dessert.tittle} - ${dessert.price}`
-        return <li>{itemText}</li>
+        return <li key={dessert.id}>{itemText}</li>
     })
+
+
 
     return (
         <div>
