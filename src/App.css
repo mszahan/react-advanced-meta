@@ -40,3 +40,26 @@
 .main-body {
   margin: 0 10px;
 }
+
+
+.main-nav > ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.main-nav ul li {
+  list-style-type: none;
+  color: #124e5f;
+  font-size: 1.25rem;
+}
+
+.main-nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav ul li a:hover{
+  color: #61dafb;
+}
