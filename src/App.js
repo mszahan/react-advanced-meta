@@ -3,6 +3,7 @@ import DesertItem from './components/desertItem';
 import UncontrolledForm from './components/forms/uncontrolledForm';
 import ControlledForm from './components/forms/controlledForm';
 import LemonForm from './components/forms/lemonForm'
+import ContextBlog from './components/contextApi/contextBlog';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <UncontrolledForm/>
       <ControlledForm/>
       <LemonForm/>
+      <ContextBlog/>
     </div>
   );
 }
