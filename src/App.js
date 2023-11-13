@@ -1,8 +1,8 @@
 import './App.css';
 import DesertItem from './components/desertItem';
-import UncontrolledForm from './components/uncontrolledForm';
-import ControlledForm from './components/controlledForm';
-import LemonForm from './components/lemonForm'
+import UncontrolledForm from './components/forms/uncontrolledForm';
+import ControlledForm from './components/forms/controlledForm';
+import LemonForm from './components/forms/lemonForm'
 
 function App() {
   return (
