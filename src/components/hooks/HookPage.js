@@ -1,6 +1,7 @@
 import GreetState from "./GreetState";
 import GoalState from "./GoalState";
 import TabEffect from "./TabEffect";
+import FetchCoin from "./FetchCoin";
 
 function HookPage (){
     return(
@@ -8,6 +9,7 @@ function HookPage (){
             <GreetState/>
             <GoalState/>
             <TabEffect/>
+            <FetchCoin/>
 
         </div>
     )
