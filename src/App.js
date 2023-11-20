@@ -5,7 +5,7 @@ import ContextBlog from './components/contextApi/contextBlog';
 import HookPage from './components/hooks/HookPage';
 import Nav from './components/Nav';
 import HomePage from './components/HomePage';
-
+import HOC from './components/HOC';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path='/forms' element={<FormPage/>} />
         <Route path='/blog' element={<ContextBlog/>} />
         <Route path='/hooks' element={<HookPage/>} />
+        <Route path='/hoc' element={<HOC/>} />
       </Routes>
       
 
